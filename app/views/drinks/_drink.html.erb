@@ -1,0 +1,22 @@
+<div id="<%= dom_id drink %>">
+  <div>
+    <strong>Name:</strong>
+    <%= drink.name %>
+  </div>
+
+  <div>
+    <strong>Barcode:</strong>
+    <%= drink.barcode %>
+  </div>
+
+  <div>
+    <strong>Price:</strong>
+    <span style="color: <%= colorize(drink) %>"><%= drink.price %></span>
+  </div>
+
+  <div>
+    <strong>Volume:</strong>
+    <%= drink.volume %>
+  </div>
+
+</div>
